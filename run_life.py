@@ -14,7 +14,8 @@ from dog_class import *
 
 max_dog_instance = Dog()
 ringo_dog_instance = Dog('Ringo')
-#Call the metho .bark() on object
+#ringo_dog_instance = ()
+#Call the method .bark() on object
 
 print(max_dog_instance.name)
 print(ringo_dog_instance.name)
