@@ -22,3 +22,10 @@ So in the above example, eat cookie() could be a method
 ##4 Pillars
 
 ### Abstraction
+-good naming
+-good documentation
+-use of inheritance
+
+####
+-what is class polymorphism
+-what is method polymorphism
