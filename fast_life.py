@@ -21,5 +21,9 @@ print(cat_instance.name)
 
 #Print another new cat in the area
 
-new_cat = Cat('Garfield')
+
+#def __init__(self, name ='eM Jay',eye_colour='', fur ='', age=0):
+new_cat = Cat('Garfield', 'blue', 'black', age=3)
 print(new_cat.name)
+print(new_cat.eye_colour)
+print(new_cat.age)
