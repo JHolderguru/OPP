@@ -9,7 +9,6 @@ class Student():
         return self.name
 
     def student_skill_list(self):
-        self.student_number
         return f'{self.name}This is your newest skillset!'+ self.student_number
 
 

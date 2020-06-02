@@ -4,7 +4,7 @@ class Course():
         self.module_name = module_name
         self.list_of_students = list_of_students
         self.start_date = start_date
-        self.module2()
+
 
     def module_name(self):
         return self.module_name

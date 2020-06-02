@@ -6,14 +6,19 @@ from Monster import *
 #Be able to add a new student to the course
 Test_instance = Student
 
-Enrollment = Student(name='Sullivan')
-print(Enrollment.name)
+Enrollment = Student(name='Sullivan', student_number='4321')
+print(Enrollment.get_name())
+print(Enrollment.student_number)
 
-Enrollment = Student(name='Saskia')
-print(Enrollment.name)
 
-Enrollment = Student(name='Nathan')
+Enrollment = Student(name='Saskia',student_number='1234')
+print(Enrollment.get_name())
+print(Enrollment.student_number)
+
+Enrollment = Student(name='Nathan', student_number='4132')
 print(Enrollment.name)
+print(Enrollment.skill_list)
+print(Enrollment.student_number)
 
 
 #Create a course with module name and start date
@@ -35,4 +40,7 @@ print(module4.start_date)
 
 #Add a new skill to student user
 skillset = Monster_skillset
-print(skillset.student_to_course('Sullivan',' module 4'))
+print(skillset.student_to_course(Monster_skillset,'Sullivan', ' module 4'))
+
+skillset = Monster_skillset
+print(skillset.student_to_course(Monster_skillset,'Nathan', ' module 2'))
