@@ -2,7 +2,7 @@ from Student_monster import *
 from course import *
 
 
-class Monster_skillset(Student, Course):
+class Monster_skillset(Student):
 
     def __init__(self, name, tax_number=123456, fur=''):
         super().__init__(name, tax_number, fur) #self shouldnt be used in the super

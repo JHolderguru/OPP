@@ -11,7 +11,7 @@ print(Enrollment.get_name())
 print(Enrollment.student_number)
 
 
-Enrollment = Student(name='Saskia',student_number='1234')
+Enrollment = Student(name='Saskia', student_number='1234')
 print(Enrollment.get_name())
 print(Enrollment.student_number)
 
